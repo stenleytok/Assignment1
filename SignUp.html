@@ -52,7 +52,7 @@ a {
       <tr class="nav_bar">
         <th width="100" scope="col"><a href="index.html" class="nav_home" >Home</a></th>
         <th width="100" scope="col"><a href="Ladder.html" class="nav_lad">Ladder</a></th>
-        <th width="100" scope="col"><a href="Rules.html" class="nav_rules">Rules</a></th>
+        <th width="100" scope="col"><a href="Rules.html" class="nav_rules">Guides</a></th>
         <th width="100" scope="col"><a href="Events.html" class="nav_rules">Events</a></th>
         <th width="100" scope="col"><a href="AboutUs.html" class="nav_about">About Us</a></th>
       </tr>
@@ -62,7 +62,8 @@ a {
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="EditRegion4" -->
 <h1>Register</h1>
 <h2>	Please complete the registration form below to sign up your team.</h2>
-<table width="425" border="0" cellspacing="0" cellpadding="0" align="center">
+<form id="form1">
+  <table width="425" border="0" cellspacing="0" cellpadding="0" align="center">
   <tr>
     <td width="206" height="16"><h6>Name</h6></td>
     <td width="32"><h6>:</h6></td>
@@ -97,15 +98,18 @@ a {
     </select></td>
   </tr>
 </table>
-<p align="center">
-  <input type="checkbox" name="checkbox" id="checkbox" />
-<span id="signup">I have read and agree with the <a href="Rules.html">Playing Guidelines</a></span></p>
-</p>
-<div align="center">
-<form action="ThankYou.html" method="get">
-  <input type="submit" name="button" id="button" value="Submit" align="center">
+  <div align="center">
+    <p>
+      <input type="checkbox" name="checkbox" id="checkbox" />
+      <span id="signup">I have read and agree with the <a href="Rules.html">Playing Guidelines</a></span>    </p>
+    <p>
+      <input type="submit" name="button" id="button" value="Submit" align="center" formaction="ThankYou.html" />
+      <input type="reset" name="Reset" id="Reset" value="Reset" />
+    </p>
+  </div>
+  </p>
 </form>
-</div>
+<div align="center"></div>
 <!-- InstanceEndEditable -->
 <p class="footer"><br />
   ©Diggers Club Volleyball 2015. All rights reserved.</p>
